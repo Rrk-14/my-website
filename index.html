@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form section</title>
+    <link rel="StyleSheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="divs">
+        <form  class="container">
+            <h3>Registration Form</h3>
+            <label  class="main">Name:</label>
+            <input type="text" placeholder="Enter Your Name" class="inputSec">
+
+            <label  class="main">Email:</label>
+            <input type="email" placeholder="Enter Your Email" class="inputSec">
+
+            <label  class="main">Password:</label>
+            <input type="text" placeholder="Enter Your Password" class="inputSec">
+
+            <label  class="main">Age:</label>
+            <input type="number" placeholder="Enter Your Age" class="inputSec">
+
+            <div class="gender">
+            <label>Gender</label>
+
+            <label>Male:</label>
+            <input type="radio" name="gender" value="Male" class="genderInput">
+
+            <label>Female:</label>
+            <input type="radio" name="gender" value="Female" class="genderInput">
+            </div>
+
+            <label class="main">City:</label>
+            <select class="cityInput">
+                <option value=""></option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Okara">Okara</option>
+            </select>
+
+            <label  class="main">Skills:</label>
+            <input type="checkbox" class="skillInput">
+            <label >HTML</label>
+             <input type="checkbox" class="skillInput">
+            <label >CSS</label>
+             <input type="checkbox" class="skillInput">
+            <label>Javascript</label>
+
+
+            <label class="main">Text:</label>
+            <textarea placeholder="Please type Your Message"></textarea>
+
+            <button class="btn">Submit</button>
+
+            <p class="result"></p>
+        </form>
+    </div>
+    
+</body>
+</html>
